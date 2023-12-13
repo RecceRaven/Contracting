@@ -3,10 +3,68 @@
     --bluenight: #150050;
     --darkpurp: #3F0071;
     --purp: #610094;
+    margin: 0px;
 }
 
-#hero {
-   
+#maintitle {
+    font-size: 100px;
+}
 
+#p1 {
+   background-color: #3F0071;
+   transition-duration: 200ms;
 
+}
+
+#p1:hover {
+    background-color: #150050;
+    cursor: pointer;
+
+}
+
+#p2 {
+    background-color:#3F0071;
+    transition-duration: 200ms;
+}
+
+#p2:hover {
+    background-color: #150050;
+    cursor: pointer;
+
+}
+
+#about {
+    background-color: #3F0071;
+    transition-duration: 200ms;
+}
+#about:hover {
+    background-color: #150050;
+    cursor: pointer;
+
+}
+
+#p3 {
+    background-color:#3F0071;
+    transition-duration: 200ms;
+}
+#p3:hover {
+    background-color: #150050;
+    cursor: pointer;
+
+}
+
+#service {
+    background-color:#3F0071;
+    transition-duration: 200ms;
+}
+
+#service:hover {
+    background-color: #150050;
+    cursor: pointer;
+
+}
+
+.navbar-item:hover {
+    background-color: #610094;
+    color: #000000;            
 }
