@@ -8,8 +8,14 @@
 
 #maintitle {
     font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
+#subtitle {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
 #p1 {
    background-color: #3F0071;
    transition-duration: 200ms;
@@ -64,7 +70,16 @@
 
 }
 
-.navbar-item:hover {
-    background-color: #610094;
-    color: #000000;            
+.hero-head a {
+    transition-duration: 200ms;
+}
+
+#quoteButtton {
+    border-style: none;
+}
+
+#quoteButton:hover {
+    background-color: #3F0071;
+    color: #610094; 
+    border-style: none;          
 }
